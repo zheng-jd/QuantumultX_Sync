@@ -26,7 +26,3 @@ jobs:
           source_branch: "master"
           destination_branch: "hundun"
           github_token: ${{ secrets.PAT }}
-          DINGDING_WEBHOOK: ${{ secrets.DINGDING_WEBHOOK }}
-        run: |
-          npm install
-          npm run serve
