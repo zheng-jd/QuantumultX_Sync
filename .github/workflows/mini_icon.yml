@@ -1,4 +1,4 @@
-name: rule1
+name: mini_icon
 on:
   schedule:
     - cron: '1 */3 * * *'
